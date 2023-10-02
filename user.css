@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/*--------------------------------------------------------
+  フルCSSプロフェッショナルテンプレート部品設定
+--------------------------------------------------------*/
+
+.hpb-parts-cnt-style
+{
+    border-color: #666666;
+}
+
+.hpb-parts-hl-style
+{
+    border-color: #2d70b4;
+	background-image:none !important;
+    padding: 9px 8px 7px !important;
+}
+
+.hpb-parts-cbox-style
+{
+    border-color: #cccccc;
+}
+
+.hpb-parts-hr-style
+{
+    border-color: #cccccc;
+}
+
+.hpb-parts-pbox-style
+{
+    border-color: #cccccc;
+}
+.hpb-parts-pbox-style h4
+{
+    padding: 0px;
+}
+
+.hpb-parts-blist-style
+{
+    border-color: #cccccc;
+    background-color: #f3f3f3;
+}
+a.hpb-parts-blist-style:link
+{
+    color: #2d70b4;
+}
+a.hpb-parts-blist-style:visited
+{
+    color: #2d70b4;
+}
+a.hpb-parts-blist-style:hover
+{
+    color: #2d70b4;
+	background-color:#e6e6e6;
+}
+a.hpb-parts-blist-style:active
+{
+    color: #2d70b4;
+	background-color:#e6e6e6;
+}
+
+/*--------------------------------------------------------
+  ユーザー設定スタイル
+--------------------------------------------------------*/
+
+/* =======================================================
+  レスポンシブル設定
+======================================================= */
+@media screen and (max-width: 568px) {
+	
+	.hpb-parts-hl-style
+	{
+		border-top-color: #2d70b4 !important;
+		background-color: #FFFFFF !important;
+	}
+	
+}
