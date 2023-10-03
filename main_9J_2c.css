@@ -4,7 +4,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	text-align: left;
 	font-size: 75%;
 	font-family: 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', 'Osaka', sans-serif;
 	color: #000000; /* 標準文字色 */
@@ -71,7 +71,7 @@ img{
 	padding-left:30px;
 }
 
-#hpb-headerLogo a{
+/* #hpb-headerLogo a{
     display: block;
     margin-top: 0;
     margin-right: 0;
@@ -87,8 +87,26 @@ img{
     background-image : url(logo_9J.png);
     background-position: top left;
     background-repeat: no-repeat;
+} */
+#hpb-headerLogo a {
+    font-size: 33px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    padding-left: 60px;
 }
-
+#hpb-headerLogo a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 53px;
+    height: 45px;
+    background-image: url('logo.png');
+    background-size: cover;
+}
 
 /* フッター内パーツ */
 #hpb-footerMain{
