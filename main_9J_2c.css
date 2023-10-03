@@ -99,11 +99,18 @@ img{
 /*    padding-left: 60px;*/
 }
 #hpb-headerLogo img {
-    margin-left: 5px;
+    margin-left: 10px;
     width: 53px;
     height: 45px;
     margin-right: 10px;
 }
+
+@media (max-width: 480px) {
+	#hpb-headerLogo a {
+    	font-size: 24px;
+	}
+}
+
 /*#hpb-headerLogo a::before {
     content: "";
     position: absolute;
