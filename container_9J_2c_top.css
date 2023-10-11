@@ -16,7 +16,8 @@
 }
 
 #hpb-header{
-    width: 980px;
+    width: 960px;
+	margin-left: 10px;
     margin-bottom: 50px;
 }
 
@@ -38,12 +39,12 @@
 }
 
 .hpb-layoutset-02 #hpb-wrapper{
-    width: 660px;
+    width: 940px;
     float: left;
 }
 
 .hpb-layoutset-01 #hpb-title{
-    height: 335px;
+    height: 200px;
 }
 
 .hpb-layoutset-01 #hpb-title h2{
@@ -53,7 +54,7 @@
     margin-right: 0;
     overflow: hidden;
     text-indent: -9999px;
-    height: 335px;
+    height: 200px;
     background-image : url(mainimg_9J.png);
     background-position: top center;
     background-repeat: no-repeat;
@@ -75,8 +76,17 @@
     background-repeat: no-repeat;
 	line-height:136px;
 	text-align:left;
-    font-size: 24px;
+    font-size: 28px;
 }
+
+.fuchidori {
+	color: #000;
+	text-shadow:1.5px 1.5px 0 #FFF, -1.5px -1.5px 0 #FFF,
+				-1.5px 1.5px 0 #FFF, 1.5px -1.5px 0 #FFF,
+				0px 1.5px 0 #FFF,  0-1.5px 0 #FFF,
+				-1.5px 0 0 #FFF, 1.5px 0 0 #FFF;
+}
+
 h2 span.ja{
 	padding-left:27px;
 }
