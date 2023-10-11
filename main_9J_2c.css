@@ -396,7 +396,7 @@ h4{
     padding-bottom: 2px;
     padding-left: 2px;
     text-align: left;
-    font-size: 1.2em;
+    font-size: 1.4em;
     line-height: 1.2;
 	font-weight:bold;
     color: #2d70b4;
@@ -711,7 +711,7 @@ form{
   レスポンシブル設定
 ======================================================= */
 @media screen and (max-width: 568px) {
-	
+
 	body{
 		min-width: 100%;
 	}
@@ -728,7 +728,7 @@ form{
 		padding-right: 0px;
 		height: auto;
 	}
-	
+
 	#hpb-headerMain h1{
     padding-top: 5px;
     padding-right: 5px;
@@ -739,7 +739,7 @@ form{
 		background-image : none;
 		display: block;
 	}
-	
+
 	#hpb-headerLogo{
 		width: 98%;
 		padding-top: 13px;
@@ -747,13 +747,13 @@ form{
 		margin-right: auto;
 		margin-left: auto;
 	}
-	
+
 	#hpb-headerLogo a{
 		background-position: center center;
 		background-size: contain;
 	}
-	
-	
+
+
 	/* フッター内パーツ */
 	#hpb-footerMain{
     padding-top: 0px;
@@ -765,31 +765,31 @@ form{
 		padding-left: 5px;
 		word-break: break-all;
 	}
-		
+
 	/* サイドブロック内パーツ */
 	#banner li a{
 		max-width: 100%;
 	}
-	
+
 	#banner a#banner-schedule{
 		/* スケジュールバナー */
 		background-position: top center;
 		background-size: contain;
 	}
-	
+
 	#banner a#banner-admission{
 		/* 入会ご案内バナー */
 		background-position: top center;
 		background-size: contain;
 	}
-	
+
 	#banner a#banner-blog{
 		/* 代表ブログバナー */
 		background-position: top center;
 		background-size: contain;
 	}
-	
-	/* 団体情報 */	
+
+	/* 団体情報 */
 	#hpb-inner #associationinfo h3{
 		background-image : none;
 		border-top-width: 5px;
@@ -797,11 +797,11 @@ form{
 		border-top-style: solid;
 		background-color: #F5F5F5;
 	}
-	
+
 	#hpb-inner #associationinfo p{
     padding-left: 5px;
 	}
-	
+
 	/*--------------------------------------------------------
 	  ナビゲーションデザイン設定
 	--------------------------------------------------------*/
@@ -818,7 +818,7 @@ form{
 		text-indent: -9999px;
 		cursor: pointer;
 	}
-	
+
 	/*--------------------------------------------------------
 		基本パーツデザイン設定
 	--------------------------------------------------------*/
@@ -826,7 +826,7 @@ form{
 		padding-right: 0px;
 		padding-left: 0px;
 	}
-		
+
 	#hpb-wrapper h3{
 		background-image : none;
 		border-top-width: 5px;
@@ -841,7 +841,7 @@ form{
 		width: 96%;
 		boder-sizing: border-box;
 	}
-	
+
 	/* フォームパーツ設定 */
 	textarea{
 		width: 96%;
@@ -855,18 +855,18 @@ form{
 	input.s{
 		width: 30%;
 	}
-	
-	/* メインコンテンツ内基本パーツ */	
+
+	/* メインコンテンツ内基本パーツ */
 	#hpb-main img.left{
 		margin-right: 0px;
 		float: none;
 	}
-	
+
 	#hpb-main img.right{
 		margin-left: 0px;
 		float: none;
 	}
-	
+
 	#pagetop{
 		padding-bottom: 0px;
 	}
