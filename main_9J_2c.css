@@ -671,6 +671,12 @@ form{
 #toppage-news h3{
 	margin-top:10px;
 }
+#toppage-sns img{
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
 .info-photo{
 	float: left;
 	padding-right: 10px;
