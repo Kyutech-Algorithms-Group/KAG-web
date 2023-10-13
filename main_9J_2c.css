@@ -69,7 +69,7 @@ img{
 	display: flex;
     width: 660px;
 	padding-bottom:13px;
-	padding-left:30px;
+	padding-left:15px;
 	align-items: center;
 }
 
@@ -506,14 +506,11 @@ form{
 
 #hpb-main ul li{
 	text-align: left;
-	line-height: 1.4;
+	line-height: 1;
 	padding-top: 10px;
 	padding-right: 15px;
 	padding-bottom: 10px;
-	padding-left: 25px;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #cccccc;
+	padding-left: 30px;
 	background-image : url(point_9J.png);
 	background-repeat: no-repeat;
 	background-position: 3px 10px;
