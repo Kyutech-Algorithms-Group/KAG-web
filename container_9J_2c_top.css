@@ -256,8 +256,7 @@ h2 span.en{
 	}
 
 	.hpb-layoutset-01 #hpb-title h2{
-		height: 196px;
-		background-size: contain;
+		width: 100%;
 	}
 
 	.hpb-layoutset-02 #hpb-title{
@@ -265,13 +264,22 @@ h2 span.en{
 		height: auto;
 	}
 
-	.hpb-layoutset-02 #hpb-title h2{
-		height: auto;
-		background-image : none;
-		line-height: 1.4;
-		background-color: #ADBDCA;
-		padding-top: 10px;
-		padding-bottom: 10px;
+	.hpb-layoutset-02 #hpb-title h2 {
+		margin-top: 0;
+		margin-bottom: 10px;
+		margin-left: 0;
+		margin-right: 0;
+		overflow: hidden;
+		height: 136px;
+		background-image: url(titleBg_9J.png);
+		background-position: top left;
+		background-repeat: no-repeat;
+		line-height: 136px;
+		text-align: left;
+		font-size: 28px;
+		padding-top: 0;
+		padding-bottom: 0;
+		background-color: transparent;
 	}
 
 	h2 span.ja{

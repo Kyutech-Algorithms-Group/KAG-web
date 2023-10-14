@@ -99,7 +99,7 @@ img{
 /*	padding-left: 60px;*/
 }
 #hpb-headerLogo img {
-	margin-left: 10px;
+	margin-left: 5px;
 	width: 53px;
 	height: 45px;
 	margin-right: 10px;
@@ -714,15 +714,16 @@ form{
 		padding-bottom: 0px;
 		padding-left: 0px;
 		padding-right: 0px;
+		background-color: #0f3fed;
 		height: auto;
 	}
 
 	#hpb-headerMain h1{
-	padding-top: 5px;
-	padding-right: 5px;
-	padding-bottom: 5px;
+		padding-top: 5px;
+		padding-right: 5px;
+		padding-bottom: 5px;
 		padding-left: 5px;
-	line-height: 1.4;
+		line-height: 1.4;
 		height: auto;
 		background-image : none;
 		display: block;
@@ -811,16 +812,18 @@ form{
 		基本パーツデザイン設定
 	--------------------------------------------------------*/
 	p{
-		padding-right: 0px;
-		padding-left: 0px;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 
 	#hpb-wrapper h3{
 		background-image : none;
 		border-top-width: 5px;
-		border-top-color: #000000;
+		border-top-color: #1E2096;
 		border-top-style: solid;
-		background-color: #F5F5F5;
+		background-color: #2FBCFF;
+		font-size: 1.3em;
+		font-weight: bold;
 	}
 
 	table{
