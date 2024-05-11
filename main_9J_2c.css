@@ -1,24 +1,27 @@
 @charset "UTF-8";
 
 /* 要素リセット */
-body{
+body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
 	font-size: 100%;
 	font-family: 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', 'Osaka', sans-serif;
-	color: #000000; /* 標準文字色 */
+	color: #000000;
+	/* 標準文字色 */
 	min-width: 900px;
 	background-color: #efefef;
 }
+
 /* Safari用ハック 文字サイズ調整 */
 /*\*/
-html:first-child body{
+html:first-child body {
 	font-size: 100%;
 }
+
 /* end */
 
-img{
+img {
 	border-top: 0;
 	border-right: 0;
 	border-bottom: 0;
@@ -30,21 +33,21 @@ img{
   共通レイアウトパーツ設定
 --------------------------------------------------------*/
 /* ヘッダー内パーツ */
-#hpb-headerMain{
-	background-image : url(headerMainBg1_9J.svg);
+#hpb-headerMain {
+	background-image: url(headerMainBg1_9J.svg);
 	background-repeat: repeat-x;
 	/* background-position: 0px 10px; */
-	padding-top:0px;
-	padding-bottom:0px;
-	padding-left:0px;
-	padding-right:0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 	/* text-align: left; */
-	height:30px;
+	height: 30px;
 	/* overflow:hidden; */
 	margin-bottom: 10px;
 }
 
-#hpb-headerMain h1{
+#hpb-headerMain h1 {
 	margin-top: 0;
 	margin-right: 0;
 	margin-bottom: 0;
@@ -57,19 +60,19 @@ img{
 	font-weight: normal;
 	line-height: 26px;
 	font-size: 12px;
-	height:26px;
-	color:#ffffff;
-	background-image : url(headerMainBg2_9J.png);
+	height: 26px;
+	color: #ffffff;
+	background-image: url(headerMainBg2_9J.png);
 	background-repeat: no-repeat;
 	background-position: right center;
-	display:inline-block;
+	display: inline-block;
 }
 
-#hpb-headerLogo{
+#hpb-headerLogo {
 	display: flex;
 	width: 660px;
-	padding-bottom:13px;
-	padding-left:15px;
+	padding-bottom: 13px;
+	padding-left: 15px;
 	align-items: center;
 }
 
@@ -96,8 +99,9 @@ img{
 	text-decoration: none;
 	font-weight: bold;
 	position: relative;
-/*	padding-left: 60px;*/
+	/*	padding-left: 60px;*/
 }
+
 #hpb-headerLogo img {
 	margin-left: 5px;
 	width: 53px;
@@ -124,27 +128,27 @@ img{
 }*/
 
 /* フッター内パーツ */
-#hpb-footerMain{
+#hpb-footerMain {
 	padding-top: 5px;
 }
 
-#hpb-footerMain p{
+#hpb-footerMain p {
 	/* コピーライト文字設定 */
 	color: #FFFFFF;
 	font-size: 0.8em;
 	text-align: center;
-	padding-top:5px;
-	padding-bottom:5px;
-	margin-top:0;
-	margin-bottom:0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 0;
+	margin-bottom: 0px;
 	background-color: #40B0E5;
 }
 
-#hpb-footerExtra1{
+#hpb-footerExtra1 {
 	padding-top: 2px;
 }
 
-#hpb-footerExtra1 ul{
+#hpb-footerExtra1 ul {
 	margin-top: 0;
 	margin-right: 0;
 	margin-bottom: 0;
@@ -157,7 +161,7 @@ img{
 	text-align: left;
 }
 
-#hpb-footerExtra1 li{
+#hpb-footerExtra1 li {
 	/* フッターナビ設定 */
 	display: inline;
 	padding-left: 23px;
@@ -165,24 +169,27 @@ img{
 	font-weight: bold;
 }
 
-#hpb-footerExtra1 a:link{
+#hpb-footerExtra1 a:link {
 	color: #333333;
-	text-decoration:underline;
+	text-decoration: underline;
 }
-#hpb-footerExtra1 a:visited{
+
+#hpb-footerExtra1 a:visited {
 	color: #333333;
-	text-decoration:underline;
+	text-decoration: underline;
 }
-#hpb-footerExtra1 a:hover{
-	color: #333333;
-	text-decoration: none;
-}
-#hpb-footerExtra1 a:active{
+
+#hpb-footerExtra1 a:hover {
 	color: #333333;
 	text-decoration: none;
 }
 
-#banner ul{
+#hpb-footerExtra1 a:active {
+	color: #333333;
+	text-decoration: none;
+}
+
+#banner ul {
 	margin-top: 0;
 	margin-right: 0;
 	margin-bottom: 0;
@@ -194,11 +201,11 @@ img{
 	list-style-type: none;
 }
 
-#banner li{
+#banner li {
 	padding-bottom: 6px;
 }
 
-#banner li a{
+#banner li a {
 	display: block;
 	width: 253px;
 	height: 159px;
@@ -208,50 +215,50 @@ img{
 	overflow: hidden;
 }
 
-#banner a#banner-schedule{
+#banner a#banner-schedule {
 	/* スケジュールバナー */
-	background-image : url(banner_9J_01.png);
+	background-image: url(banner_9J_01.png);
 	background-position: top left;
 	background-repeat: no-repeat;
 }
 
-#banner a#banner-admission{
+#banner a#banner-admission {
 	/* 入会ご案内バナー */
-	background-image : url(banner_9J_02.png);
+	background-image: url(banner_9J_02.png);
 	background-position: top left;
 	background-repeat: no-repeat;
 }
 
-#banner a#banner-blog{
+#banner a#banner-blog {
 	/* 代表ブログバナー */
-	background-image : url(banner_9J_03.png);
+	background-image: url(banner_9J_03.png);
 	background-position: top left;
 	background-repeat: no-repeat;
 }
 
 /* 団体情報 */
-#hpb-inner #associationinfo{
+#hpb-inner #associationinfo {
 	padding-top: 0px;
 	padding-bottom: 10px;
-	margin-top:10px;
+	margin-top: 10px;
 }
 
-#hpb-inner #associationinfo h3{
+#hpb-inner #associationinfo h3 {
 	padding-right: 15px;
 	padding-left: 15px;
-	padding-top:13px;
-	padding-bottom:8px;
-	margin-top:1em;
-	margin-bottom:1em;
+	padding-top: 13px;
+	padding-bottom: 8px;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	color: #000000;
-	clear:both;
-	background-image : url(indexBg_9J.png);
+	clear: both;
+	background-image: url(indexBg_9J.png);
 	background-repeat: repeat-x;
 	background-position: left top;
-	text-align:left;
+	text-align: left;
 }
 
-#hpb-inner #associationinfo p{
+#hpb-inner #associationinfo p {
 	margin-bottom: 10px;
 	padding-left: 18px;
 	padding-right: 5px;
@@ -265,24 +272,27 @@ img{
 --------------------------------------------------------*/
 
 /* リンク文字色 */
-a:link{
+a:link {
 	color: #2d70b4;
 	text-decoration: underline;
 }
-a:visited{
+
+a:visited {
 	color: #2d70b4;
 	text-decoration: underline;
 }
-a:hover{
-	color: #2d70b4;
-	text-decoration: none;
-}
-a:active{
+
+a:hover {
 	color: #2d70b4;
 	text-decoration: none;
 }
 
-#hpb-skip{
+a:active {
+	color: #2d70b4;
+	text-decoration: none;
+}
+
+#hpb-skip {
 	/* ヘッダースキップの非表示 */
 	height: 1px;
 	margin: 0;
@@ -291,7 +301,7 @@ a:active{
 	text-indent: -9999px;
 }
 
-p{
+p {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-right: 20px;
@@ -300,22 +310,24 @@ p{
 	text-align: left;
 }
 
-p.large{
+p.large {
 	font-weight: bold;
-	font-size:1.2em;
+	font-size: 1.2em;
 }
-p.indent{
+
+p.indent {
 	padding-left: 25px;
 }
 
-.left{
+.left {
 	float: left;
 }
-.right{
+
+.right {
 	float: right;
 }
 
-hr{
+hr {
 	width: 100%;
 	height: 1px;
 	margin-top: 20px;
@@ -338,33 +350,33 @@ hr{
 	border-bottom-style: none;
 }
 
-#hpb-wrapper h3{
+#hpb-wrapper h3 {
 	padding-right: 13px;
 	padding-left: 18px;
-	padding-top:10px;
-	padding-bottom:8px;
-	margin-top:1em;
-	margin-bottom:1em;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	color: #FFFFFF;
-	clear:both;
-	background-image : url(indexBg_9J.png);
+	clear: both;
+	background-image: url(indexBg_9J.png);
 	background-repeat: no-repeat;
 	background-position: left;
 	font-size: 1.2em;
-	font-weight:bold;
+	font-weight: bold;
 }
 
 
-h3 span.ja{
+h3 span.ja {
 	display: none;
 }
 
-h3 span.en{
+h3 span.en {
 	color: #000000;
-	text-transform:uppercase;
+	text-transform: uppercase;
 }
 
-h3.hpb-c-index{
+h3.hpb-c-index {
 	height: 1px;
 	margin: 0;
 	padding: 0;
@@ -373,7 +385,7 @@ h3.hpb-c-index{
 	background: none;
 }
 
-h4{
+h4 {
 	margin-top: 0;
 	margin-right: 0;
 	margin-bottom: 0;
@@ -385,11 +397,11 @@ h4{
 	text-align: left;
 	font-size: 1.15em;
 	line-height: 1.2;
-	font-weight:bold;
+	font-weight: bold;
 	color: #2d70b4;
 }
 
-h5{
+h5 {
 	display: inline;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -400,10 +412,10 @@ h5{
 	text-align: left;
 	font-size: 1em;
 	line-height: 1.2;
-	font-weight:bold;
+	font-weight: bold;
 }
 
-table{
+table {
 	margin-top: 5px;
 	margin-left: 15px;
 	margin-bottom: 5px;
@@ -417,13 +429,13 @@ table{
 	border-left-color: #cccccc;
 }
 
-table th{
+table th {
 	padding-top: 8px;
 	padding-right: 15px;
 	padding-bottom: 8px;
 	padding-left: 8px;
 	text-align: left;
-	font-weight:bold;
+	font-weight: bold;
 	background-color: #f3f3f3;
 	border-right-width: 1px;
 	border-right-style: solid;
@@ -433,7 +445,7 @@ table th{
 	border-bottom-color: #cccccc;
 }
 
-table td{
+table td {
 	padding-top: 8px;
 	padding-right: 15px;
 	padding-bottom: 8px;
@@ -448,36 +460,38 @@ table td{
 }
 
 /* フォームパーツ設定 */
-input.button{
+input.button {
 	margin-top: 10px;
 	margin-bottom: 15px;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-textarea{
+textarea {
 	width: 400px;
 	height: 200px;
 }
 
-input.l{
+input.l {
 	width: 400px;
 }
-input.m{
+
+input.m {
 	width: 250px;
 }
 
-input.s{
+input.s {
 	width: 50px;
 }
-form{
-	text-align:center;
+
+form {
+	text-align: center;
 }
 
 
 /* メインコンテンツ内基本パーツ */
 
-#hpb-main ul{
+#hpb-main ul {
 	margin-top: 0;
 	margin-right: 0;
 	margin-bottom: 15px;
@@ -489,19 +503,19 @@ form{
 	list-style-type: none;
 }
 
-#hpb-main ul li{
+#hpb-main ul li {
 	text-align: left;
 	line-height: 1;
 	padding-top: 10px;
 	padding-right: 15px;
 	padding-bottom: 10px;
 	padding-left: 30px;
-	background-image : url(point_9J.png);
+	background-image: url(point_9J.png);
 	background-repeat: no-repeat;
 	background-position: 3px 10px;
 }
 
-#hpb-main dl{
+#hpb-main dl {
 	margin-top: 0;
 	margin-right: 0;
 	margin-bottom: 20px;
@@ -513,7 +527,7 @@ form{
 }
 
 
-#hpb-main dt{
+#hpb-main dt {
 	float: left;
 	margin-top: 0;
 	margin-right: 0;
@@ -529,7 +543,7 @@ form{
 	padding-left: 15px;
 }
 
-#hpb-main dd{
+#hpb-main dd {
 	margin-top: 0;
 	margin-right: 0;
 	margin-bottom: 0;
@@ -546,37 +560,37 @@ form{
 }
 
 
-#hpb-main img.left{
+#hpb-main img.left {
 	margin-top: 5px;
 	margin-right: 20px;
 	margin-bottom: 10px;
 	float: left;
 }
 
-#hpb-main img.right{
+#hpb-main img.right {
 	margin-top: 5px;
 	margin-bottom: 10px;
 	margin-left: 20px;
 	float: right;
 }
 
-#pagetop{
+#pagetop {
 	margin-top: 35px;
 	margin-right: auto;
 	margin-bottom: 0;
 	margin-left: auto;
 	text-align: right;
-	padding-bottom:40px;
+	padding-bottom: 40px;
 }
 
-#pagetop a{
+#pagetop a {
 	/* ページの先頭へのリンク設定 */
 	display: block;
 	margin-left: auto;
 	width: 127px;
 	height: 20px;
 	overflow: hidden;
-	background-image : url(returnTop_9J.png);
+	background-image: url(returnTop_9J.png);
 	background-position: top left;
 	background-repeat: no-repeat;
 	text-align: left;
@@ -586,16 +600,17 @@ form{
 
 
 /* トップページ デザイン定義 */
-#toppage p.large{
+#toppage p.large {
 	color: #000000;
 	font-weight: normal;
 }
-#toppage p.large::first-line{
+
+#toppage p.large::first-line {
 	font-weight: bold;
-	font-size:1.2em;
+	font-size: 1.2em;
 }
 
-#toppage-info h4{
+#toppage-info h4 {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
@@ -606,12 +621,12 @@ form{
 	padding-right: 0px;
 	line-height: 1.5;
 	font-weight: bold;
-	color:#000000;
+	color: #000000;
 }
 
-#toppage-news dt{
-	color:#1E2096;
-	float:none;
+#toppage-news dt {
+	color: #1E2096;
+	float: none;
 	margin-top: 7px;
 	margin-right: 0;
 	margin-bottom: 0;
@@ -619,7 +634,7 @@ form{
 	text-align: left;
 	line-height: 19px;
 	font-weight: bold;
-	width:auto !important;
+	width: auto !important;
 	padding-top: 3px;
 	padding-right: 0;
 	padding-bottom: 5px;
@@ -629,7 +644,7 @@ form{
 	background-position: 10px 3px;
 }
 
-#toppage-news dd{
+#toppage-news dd {
 	margin-top: 0;
 	margin-right: 0;
 	margin-bottom: 0;
@@ -641,33 +656,37 @@ form{
 	line-height: 38px;
 	min-height: 0;
 	padding-left: 25px;
-	font-size:1em;
-	font-weight:normal;
+	font-size: 1em;
+	font-weight: normal;
 }
 
-#toppage-info{
-	overflow:hidden;
-	padding-bottom:30px;
+#toppage-info {
+	overflow: hidden;
+	padding-bottom: 30px;
 }
+
 #toppage-info h3,
-#toppage-news h3{
-	margin-top:10px;
+#toppage-news h3 {
+	margin-top: 10px;
 }
-#toppage-sns img{
+
+#toppage-sns img {
 	float: left;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-bottom: 10px;
 }
-.info-photo{
+
+.info-photo {
 	float: left;
 	padding-right: 10px;
 	padding-left: 20px;
 	padding-bottom: 2px;
 }
-.info-photo img{
-	width:96px;
-	height:auto;
+
+.info-photo img {
+	width: 96px;
+	height: auto;
 	border-top-width: 2px;
 	border-right-width: 2px;
 	border-bottom-width: 2px;
@@ -682,17 +701,18 @@ form{
 	border-left-color: #FFFFFF;
 }
 
-.info-comment{
+.info-comment {
 	float: left;
-	width:310px;
-	height:100px;
-}
-.info-comment br{
-	display:none;
+	width: 310px;
+	height: 100px;
 }
 
-#toppage-info hr{
-	display:none;
+.info-comment br {
+	display: none;
+}
+
+#toppage-info hr {
+	display: none;
 }
 
 /* =======================================================
@@ -700,7 +720,7 @@ form{
 ======================================================= */
 @media screen and (max-width: 568px) {
 
-	body{
+	body {
 		min-width: 100%;
 	}
 
@@ -708,8 +728,8 @@ form{
 		共通レイアウトパーツ設定
 	--------------------------------------------------------*/
 	/* ヘッダー内パーツ */
-	#hpb-headerMain{
-		background-image : none;
+	#hpb-headerMain {
+		background-image: none;
 		padding-top: 0px;
 		padding-bottom: 0px;
 		padding-left: 0px;
@@ -718,18 +738,18 @@ form{
 		height: auto;
 	}
 
-	#hpb-headerMain h1{
+	#hpb-headerMain h1 {
 		padding-top: 5px;
 		padding-right: 5px;
 		padding-bottom: 5px;
 		padding-left: 5px;
 		line-height: 1.4;
 		height: auto;
-		background-image : none;
+		background-image: none;
 		display: block;
 	}
 
-	#hpb-headerLogo{
+	#hpb-headerLogo {
 		width: 98%;
 		padding-top: 13px;
 		padding-left: 0px;
@@ -737,18 +757,18 @@ form{
 		margin-left: auto;
 	}
 
-	#hpb-headerLogo a{
+	#hpb-headerLogo a {
 		background-position: center center;
 		background-size: contain;
 	}
 
 
 	/* フッター内パーツ */
-	#hpb-footerMain{
-	padding-top: 0px;
+	#hpb-footerMain {
+		padding-top: 0px;
 	}
 
-	#hpb-footerMain p{
+	#hpb-footerMain p {
 		/* コピーライト文字設定 */
 		padding-right: 5px;
 		padding-left: 5px;
@@ -756,48 +776,48 @@ form{
 	}
 
 	/* サイドブロック内パーツ */
-	#banner li a{
+	#banner li a {
 		max-width: 100%;
 	}
 
-	#banner a#banner-schedule{
+	#banner a#banner-schedule {
 		/* スケジュールバナー */
 		background-position: top center;
 		background-size: contain;
 	}
 
-	#banner a#banner-admission{
+	#banner a#banner-admission {
 		/* 入会ご案内バナー */
 		background-position: top center;
 		background-size: contain;
 	}
 
-	#banner a#banner-blog{
+	#banner a#banner-blog {
 		/* 代表ブログバナー */
 		background-position: top center;
 		background-size: contain;
 	}
 
 	/* 団体情報 */
-	#hpb-inner #associationinfo h3{
-		background-image : none;
+	#hpb-inner #associationinfo h3 {
+		background-image: none;
 		border-top-width: 5px;
 		border-top-color: #000000;
 		border-top-style: solid;
 		background-color: #F5F5F5;
 	}
 
-	#hpb-inner #associationinfo p{
-	padding-left: 5px;
+	#hpb-inner #associationinfo p {
+		padding-left: 5px;
 	}
 
 	/*--------------------------------------------------------
 	  ナビゲーションデザイン設定
 	--------------------------------------------------------*/
-	#hpb-nav h3.hpb-c-index{
+	#hpb-nav h3.hpb-c-index {
 		width: 27px;
 		height: 20px;
-		background-image : url(btn_menu.png);
+		background-image: url(btn_menu.png);
 		background-position: top left;
 		background-repeat: no-repeat;
 		margin-left: 10px;
@@ -811,13 +831,13 @@ form{
 	/*--------------------------------------------------------
 		基本パーツデザイン設定
 	--------------------------------------------------------*/
-	p{
+	p {
 		padding-right: 10px;
 		padding-left: 10px;
 	}
 
-	#hpb-wrapper h3{
-		background-image : none;
+	#hpb-wrapper h3 {
+		background-image: none;
 		border-top-width: 5px;
 		border-top-color: #1E2096;
 		border-top-style: solid;
@@ -826,55 +846,61 @@ form{
 		font-weight: bold;
 	}
 
-	table{
+	table {
 		margin-left: auto;
 		margin-right: auto;
 		width: 96%;
 	}
 
 	/* フォームパーツ設定 */
-	textarea{
+	textarea {
 		width: 96%;
 	}
-	input.l{
+
+	input.l {
 		width: 96%;
 	}
-	input.m{
+
+	input.m {
 		width: 60%;
 	}
-	input.s{
+
+	input.s {
 		width: 30%;
 	}
 
 	/* メインコンテンツ内基本パーツ */
-	#hpb-main img.left{
+	#hpb-main img.left {
 		margin-right: 0px;
 		float: none;
 	}
 
-	#hpb-main img.right{
+	#hpb-main img.right {
 		margin-left: 0px;
 		float: none;
 	}
 
-	#pagetop{
+	#pagetop {
 		padding-bottom: 0px;
 	}
 
 	/* トップページ デザイン定義 */
-	#toppage-news dt{
+	#toppage-news dt {
 		max-width: 100%;
 	}
-	.info-photo{
+
+	.info-photo {
 		padding-left: 0px;
 	}
-	.info-photo img{
+
+	.info-photo img {
 		border-top-width: 0px;
 		border-right-width: 0px;
 		border-bottom-width: 0px;
 		border-left-width: 0px;
 	}
-	.info-comment{
+
+	.info-comment {
 		width: 100%;
 		height: auto;
 		margin-bottom: 5px;

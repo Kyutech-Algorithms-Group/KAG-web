@@ -1,14 +1,14 @@
-$( function() {
+$(function () {
     _moveMainnav();
 
-    $(window).resize( function() {
+    $(window).resize(function () {
         _moveMainnav();
-    } );
-} );
+    });
+});
 
 function _moveMainnav() {
-    if(window.matchMedia){
-        if(window.matchMedia( "(max-width: 568px)" ).matches) {
+    if (window.matchMedia) {
+        if (window.matchMedia("(max-width: 568px)").matches) {
             $("#hpb-nav").insertBefore("#hpb-wrapper");
         }
         else {

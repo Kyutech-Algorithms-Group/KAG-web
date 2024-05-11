@@ -14,8 +14,10 @@
     display: block;
     visibility: hidden;
 }
+
 .hpb-clearfix {
-    zoom: 1; /* for IE6 */
+    zoom: 1;
+    /* for IE6 */
 }
 
 /******************************
@@ -768,15 +770,18 @@
     margin: 0px;
     padding: 0px;
 }
+
 .hpb-parts-blist-01 ul {
     margin: 0px;
     padding: 5px 0px 0px 0px;
     list-style-type: none;
     text-align: center;
 }
+
 .hpb-parts-blist-01 li {
     padding: 0px 5px 5px 5px;
 }
+
 .hpb-parts-blist-01 li a {
     display: block;
     margin: 0px;
@@ -790,15 +795,18 @@
     margin: 0px;
     padding: 0px;
 }
+
 .hpb-parts-blist-02 ul {
     margin: 0px;
     padding: 5px 0px 0px 0px;
     list-style-type: none;
     text-align: center;
 }
+
 .hpb-parts-blist-02 li {
     padding: 0px 5px 5px 5px;
 }
+
 .hpb-parts-blist-02 li a {
     display: block;
     margin: 0px;
@@ -813,15 +821,18 @@
     margin: 0px;
     padding: 0px;
 }
+
 .hpb-parts-blist-03 ul {
     margin: 0px;
     padding: 5px 0px 0px 0px;
     list-style-type: none;
     text-align: center;
 }
+
 .hpb-parts-blist-03 li {
     padding: 0px 5px 5px 5px;
 }
+
 .hpb-parts-blist-03 li a {
     display: block;
     margin: 0px auto;
@@ -842,15 +853,18 @@
     margin: 0px;
     padding: 0px;
 }
+
 .hpb-parts-blist-04 ul {
     margin: 0px;
     padding: 5px 0px 0px 0px;
     list-style-type: none;
     text-align: left;
 }
+
 .hpb-parts-blist-04 li {
     padding: 0px 5px 5px 5px;
 }
+
 .hpb-parts-blist-04 li a {
     display: block;
     margin: 0px;
@@ -859,6 +873,7 @@
     border-style: none;
     height: 30px;
 }
+
 .hpb-parts-blist-04 li a img {
     margin: 0px;
     padding: 0px 5px 0px 0px;
@@ -871,15 +886,18 @@
     margin: 0px;
     padding: 0px;
 }
+
 .hpb-parts-blist-05 ul {
     margin: 0px;
     padding: 5px 0px 0px 0px;
     list-style-type: none;
     text-align: left;
 }
+
 .hpb-parts-blist-05 li {
     padding: 0px 5px 5px 5px;
 }
+
 .hpb-parts-blist-05 li a {
     display: block;
     margin: 0px;
@@ -889,6 +907,7 @@
     border-style: solid;
     height: 30px;
 }
+
 .hpb-parts-blist-05 li a img {
     margin: 0px;
     padding: 0px 5px 0px 0px;
@@ -925,135 +944,136 @@
 --------------------------------------------------------*/
 @media screen and (max-width: 568px) {
 
-	/******************************
+    /******************************
 	 * Yahoo!ロコ-地図, Googleマップ
 	 ******************************/
-	div[name="HPBMAP"] {
-		max-width: 100% !important;
-	}
+    div[name="HPBMAP"] {
+        max-width: 100% !important;
+    }
 
-	#hpb-main div[name="HPBMAP"] img {
-		max-width: none;
-	}
+    #hpb-main div[name="HPBMAP"] img {
+        max-width: none;
+    }
 
-	/******************************
+    /******************************
 	 * フォトモーション
 	 ******************************/
-	.hpb-photomotion {
-		max-width: 100% !important;
-		height: auto !important;
-	}
-	.hpb-photomotion:after {
-		display:table;
-		clear:both;
-		content:"";
-	}
+    .hpb-photomotion {
+        max-width: 100% !important;
+        height: auto !important;
+    }
 
-	/* 画像設定 */
-	#hpb-main img {
-		max-width: 100%;
-		height: auto;
-	}
+    .hpb-photomotion:after {
+        display: table;
+        clear: both;
+        content: "";
+    }
 
-	/******************************
+    /* 画像設定 */
+    #hpb-main img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /******************************
 	 * レイアウト コンテナ (div)
 	 ******************************/
-	/* 飾りなし 幅60px */
-	.hpb-parts-cnt-01-060,
-	/* 飾りなし 幅120px */
-	.hpb-parts-cnt-01-120,
-	/* 飾りなし 幅180px */
-	.hpb-parts-cnt-01-180,
-	/* 飾りなし 幅240px */
-	.hpb-parts-cnt-01-240,
-	/* 飾りなし 幅360px */
-	.hpb-parts-cnt-01-360 {
-		max-width:100%;
-		margin-left: auto;
-		margin-right: auto;
-	}
+    /* 飾りなし 幅60px */
+    .hpb-parts-cnt-01-060,
+    /* 飾りなし 幅120px */
+    .hpb-parts-cnt-01-120,
+    /* 飾りなし 幅180px */
+    .hpb-parts-cnt-01-180,
+    /* 飾りなし 幅240px */
+    .hpb-parts-cnt-01-240,
+    /* 飾りなし 幅360px */
+    .hpb-parts-cnt-01-360 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-	/******************************
+    /******************************
 	 * 写真ボックス (div)
 	 ******************************/
-	/* 飾りなし 画像幅60px */
-	.hpb-parts-pbox-01-060,
-	/* 飾りなし 画像幅120px */
-	.hpb-parts-pbox-01-120,
-	/* 飾りなし 画像幅180px */
-	.hpb-parts-pbox-01-180,
-	/* 飾りなし 画像幅240px */
-	.hpb-parts-pbox-01-240,
-	/* 線囲み */
-	.hpb-parts-pbox-02,
-	/* 線囲み 画像幅60px */
-	.hpb-parts-pbox-02-060,
-	/* 線囲み 画像幅120px */
-	.hpb-parts-pbox-02-120,
-	/* 線囲み 画像幅180px */
-	.hpb-parts-pbox-02-180,
-	/* 線囲み 画像幅240px */
-	.hpb-parts-pbox-02-240 {
-		max-width:100%;
-		margin-left: auto;
-		margin-right: auto;
-	}
+    /* 飾りなし 画像幅60px */
+    .hpb-parts-pbox-01-060,
+    /* 飾りなし 画像幅120px */
+    .hpb-parts-pbox-01-120,
+    /* 飾りなし 画像幅180px */
+    .hpb-parts-pbox-01-180,
+    /* 飾りなし 画像幅240px */
+    .hpb-parts-pbox-01-240,
+    /* 線囲み */
+    .hpb-parts-pbox-02,
+    /* 線囲み 画像幅60px */
+    .hpb-parts-pbox-02-060,
+    /* 線囲み 画像幅120px */
+    .hpb-parts-pbox-02-120,
+    /* 線囲み 画像幅180px */
+    .hpb-parts-pbox-02-180,
+    /* 線囲み 画像幅240px */
+    .hpb-parts-pbox-02-240 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-	/******************************
+    /******************************
 	 * 複数写真ボックス (div)
 	 ******************************/
-	/* 飾りなし 画像幅60px 横2x縦1 */
-	.hpb-parts-mpbox-01-2060,
-	/* 飾りなし 画像幅60px 横3x縦1 */
-	.hpb-parts-mpbox-01-3060,
-	/* 飾りなし 画像幅60px 横4x縦1 */
-	.hpb-parts-mpbox-01-4060,
-	/* 飾りなし 画像幅120px 横2x縦1 */
-	.hpb-parts-mpbox-01-2120,
-	/* 飾りなし 画像幅120px 横3x縦1 */
-	.hpb-parts-mpbox-01-3120,
-	/* 飾りなし 画像幅120px 横4x縦1 */
-	.hpb-parts-mpbox-01-4120,
-	/* 飾りなし 画像幅180px 横2x縦1 */
-	.hpb-parts-mpbox-01-2180,
-	/* 飾りなし 画像幅180px 横3x縦1 */
-	.hpb-parts-mpbox-01-3180,
-	/* 飾りなし 画像幅180px 横4x縦1 */
-	.hpb-parts-mpbox-01-4180,
-	/* 飾りなし 画像幅240px 横2x縦1 */
-	.hpb-parts-mpbox-01-2240,
-	/* 飾りなし 画像幅240px 横3x縦1 */
-	.hpb-parts-mpbox-01-3240,
-	/* 飾りなし 画像幅240px 横4x縦1 */
-	.hpb-parts-mpbox-01-4240,
-	/* 線囲み 画像幅60px 横2x縦1 */
-	.hpb-parts-mpbox-02-2060,
-	/* 線囲み 画像幅60px 横3x縦1 */
-	.hpb-parts-mpbox-02-3060,
-	/* 線囲み 画像幅60px 横4x縦1 */
-	.hpb-parts-mpbox-02-4060,
-	/* 線囲み 画像幅120px 横2x縦1 */
-	.hpb-parts-mpbox-02-2120,
-	/* 線囲み 画像幅120px 横3x縦1 */
-	.hpb-parts-mpbox-02-3120,
-	/* 線囲み 画像幅120px 横4x縦1 */
-	.hpb-parts-mpbox-02-4120,
-	/* 線囲み 画像幅180px 横2x縦1 */
-	.hpb-parts-mpbox-02-2180,
-	/* 線囲み 画像幅180px 横3x縦1 */
-	.hpb-parts-mpbox-02-3180,
-	/* 線囲み 画像幅180px 横4x縦1 */
-	.hpb-parts-mpbox-02-4180,
-	/* 線囲み 画像幅240px 横2x縦1 */
-	.hpb-parts-mpbox-02-2240,
-	/* 線囲み 画像幅240px 横3x縦1 */
-	.hpb-parts-mpbox-02-3240,
-	/* 線囲み 画像幅240px 横4x縦1 */
-	.hpb-parts-mpbox-02-4240 {
-		max-width:100%;
-		margin-left: auto;
-		margin-right: auto;
-	}
+    /* 飾りなし 画像幅60px 横2x縦1 */
+    .hpb-parts-mpbox-01-2060,
+    /* 飾りなし 画像幅60px 横3x縦1 */
+    .hpb-parts-mpbox-01-3060,
+    /* 飾りなし 画像幅60px 横4x縦1 */
+    .hpb-parts-mpbox-01-4060,
+    /* 飾りなし 画像幅120px 横2x縦1 */
+    .hpb-parts-mpbox-01-2120,
+    /* 飾りなし 画像幅120px 横3x縦1 */
+    .hpb-parts-mpbox-01-3120,
+    /* 飾りなし 画像幅120px 横4x縦1 */
+    .hpb-parts-mpbox-01-4120,
+    /* 飾りなし 画像幅180px 横2x縦1 */
+    .hpb-parts-mpbox-01-2180,
+    /* 飾りなし 画像幅180px 横3x縦1 */
+    .hpb-parts-mpbox-01-3180,
+    /* 飾りなし 画像幅180px 横4x縦1 */
+    .hpb-parts-mpbox-01-4180,
+    /* 飾りなし 画像幅240px 横2x縦1 */
+    .hpb-parts-mpbox-01-2240,
+    /* 飾りなし 画像幅240px 横3x縦1 */
+    .hpb-parts-mpbox-01-3240,
+    /* 飾りなし 画像幅240px 横4x縦1 */
+    .hpb-parts-mpbox-01-4240,
+    /* 線囲み 画像幅60px 横2x縦1 */
+    .hpb-parts-mpbox-02-2060,
+    /* 線囲み 画像幅60px 横3x縦1 */
+    .hpb-parts-mpbox-02-3060,
+    /* 線囲み 画像幅60px 横4x縦1 */
+    .hpb-parts-mpbox-02-4060,
+    /* 線囲み 画像幅120px 横2x縦1 */
+    .hpb-parts-mpbox-02-2120,
+    /* 線囲み 画像幅120px 横3x縦1 */
+    .hpb-parts-mpbox-02-3120,
+    /* 線囲み 画像幅120px 横4x縦1 */
+    .hpb-parts-mpbox-02-4120,
+    /* 線囲み 画像幅180px 横2x縦1 */
+    .hpb-parts-mpbox-02-2180,
+    /* 線囲み 画像幅180px 横3x縦1 */
+    .hpb-parts-mpbox-02-3180,
+    /* 線囲み 画像幅180px 横4x縦1 */
+    .hpb-parts-mpbox-02-4180,
+    /* 線囲み 画像幅240px 横2x縦1 */
+    .hpb-parts-mpbox-02-2240,
+    /* 線囲み 画像幅240px 横3x縦1 */
+    .hpb-parts-mpbox-02-3240,
+    /* 線囲み 画像幅240px 横4x縦1 */
+    .hpb-parts-mpbox-02-4240 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 
