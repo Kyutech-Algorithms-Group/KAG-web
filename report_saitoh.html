@@ -1,117 +1,125 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="GENERATOR"
+      content="JustSystems Homepage Builder Version 19.0.12.0 for Windows"
+    />
+    <title>Kyutech Algorithms Group | 研究紹介（斎藤研究室）</title>
+    <link rel="stylesheet" href="hpbparts.css" type="text/css" id="hpbparts" />
+    <link
+      rel="stylesheet"
+      href="container_9J_2c_top.css"
+      type="text/css"
+      id="hpbcontainer"
+    />
+    <link rel="stylesheet" href="main_9J_2c.css" type="text/css" id="hpbmain" />
+    <link rel="stylesheeta" href="user.css" type="text/css" id="hpbuser" />
+    <script type="text/javascript" src="jquery.min.js">
+      <!-- hpbiptitle jQuery library -->
+    </script>
+    <script type="text/javascript" src="move-mainnav.js">
+      hpb - move - mainnav - js
+    </script>
+  </head>
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta http-equiv="Content-Style-Type" content="text/css" />
-	<meta http-equiv="Content-Script-Type" content="text/javascript" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="format-detection" content="telephone=no" />
-	<meta name="GENERATOR" content="JustSystems Homepage Builder Version 19.0.12.0 for Windows" />
-	<title>Kyutech Algorithms Group | 研究紹介（斎藤研究室）</title>
-	<link rel="stylesheet" href="hpbparts.css" type="text/css" id="hpbparts" />
-	<link rel="stylesheet" href="container_9J_2c_top.css" type="text/css" id="hpbcontainer" />
-	<link rel="stylesheet" href="main_9J_2c.css" type="text/css" id="hpbmain" />
-	<link rel="stylesheeta" href="user.css" type="text/css" id="hpbuser" />
-	<script type="text/javascript" src="jquery.min.js">
-		<!-- hpbiptitle jQuery library -->
-	</script>
-	<script type="text/javascript" src="move-mainnav.js">
-		hpb - move - mainnav - js
-	</script>
-</head>
-
-<body id="hpb-template-09-10-01" class="hpb-layoutset-02 hpb-responsive">
-	<div id="hpb-container">
-		<div id="hpb-header">
-			<div id="hpb-headerMain"></div>
-			<div id="hpb-headerLogo">
-				<img src="logo.png" alt="Logo" /><a href="index.html">Kyutech Algorithms Group</a>
-			</div>
-		</div>
-		<div id="hpb-inner">
-			<div id="hpb-wrapper">
-				<div id="hpb-title" class="hpb-top-image">
-					<h2>
-						<span class="ja">
-							<div class="fuchidori">研究紹介 (斎藤研究室)</div>
-						</span><span class="en"></span>
-					</h2>
-				</div>
-				<div id="hpb-main">
-					<div id="report">
-						<h3>研究内容</h3>
-						<p>
-							本研究室では主に以下の３つの課題に注目し，研究を進めています．
-						</p>
-						<ol>
-							<li>省領域アルゴリズムの研究</li>
-							<li>列挙アルゴリズムの研究</li>
-							<li>実問題に対する計算複雑性やシステム開発</li>
-						</ol>
-						<p>
-							これらの研究を通じて，アルゴリズムの開発やその解析技術を学ぶだけでなく，どのように実問題を離散的な構造への定式化していくのか，またどのようにアルゴリズムを実装するのか，といった方法についても学んでいきます．
-						</p>
-						<h3>省領域アルゴリズムの研究</h3>
-						<p>
-							近年のデータの巨大化により，効率的にビッグデータを処理するアルゴリズムが求められています．しかし，ビッグデータはそのデータの巨大さゆえ，データのすべてを一度にメモリに載せることはできません．これまでのアルゴリズム理論において，多項式時間・多項式領域のアルゴリズムが効率的であるとされてきましたが，それらのアルゴリズムはビッグデータの前では実行することができません．そこで，入力のデータサイズよりも計算領域が小さい省領域アルゴリズムが求められています．
-						</p>
-						<p>
-							本テーマでは省領域計算モデル上で動作する効率的な省領域アルゴリズムを開発し，そのアルゴリズムに対する理論的な解析を与えています．また，それらのアルゴリズムを実装し，ビッグデータに対してアルゴリズムが耐性を持つかを検証を行います．
-						</p>
-						<!-- 画像を入れる -->
-						<h3>列挙アルゴリズムの研究</h3>
-						<p>
-							列挙問題とは，入力データの中からある特徴をオブジェクトをすべて抽出する問題です．例えば，クリーク列挙であれば，グラフからクリークをすべて抽出する問題で，ネットワーク中からコミュニティをすべて発見する，という問題を意味します．こうした列挙アルゴリズムを適用することで，データから偏りのなくある特徴を満たすデータを抽出できたり，データ全体の傾向や特徴を求めることができます．列挙アルゴリズムにおける手法として，逆探索法やZDDと呼ばれるデータ構造を用いた手法が知られています．特に，データ構造
-							ZDD
-							は列挙自体を効率的に行えるというだけでなく，列挙されたオブジェクトから最適なものを抽出したり，ランダム生成を行うことができるなど，近年，非常に注目を集めています．
-						</p>
-						<p>
-							本研究では，これらの手法を用いた効率的な列挙アルゴリズムの開発するとともに，列挙アルゴリズムを実装し，アルゴリズムの効率性を実験的に評価します．
-						</p>
-						<!-- <p><a href="復元する">いくつかのグラフクラスに対する列挙結果をこちらから見ることができます．</a></p> -->
-						<!-- 画像を入れる -->
-						<h3>実問題に対するアルゴリズムと計算複雑性</h3>
-						<h4>組合せゲーム・パズルに関する研究</h4>
-						<p>
-							本研究では，組合せ的なゲームやパズルに対する計算複雑性を証明したり，パズルを解く高速なアルゴリズムの開発を行っています．また，列挙アルゴリズムの研究で得られた手法を応用し，パズルの解の列挙や例題生成アルゴリズムを行い，パズル作成システムの開発を目指しています．
-						</p>
-						<p>&nbsp;</p>
-						<!-- 画像を入れる -->
-						<!-- <div align="right">（スリザーリンクはニコリの登録商標です）</div> -->
-						<h4>たんぱく質の機能解明に関する研究</h4>
-						<p>
-							たんぱく質の立体構造は X線結晶解析や NMR
-							によって実験的に得られます．しかし，NMR
-							から得られる立体構造は現時点ではあまり信頼されておらず，実際の応用ではあまり使われていません．一方で，近年，組合せ剛性理論を用いたアルゴリズムにより，立体構造の剛性を組合せ的に判定することができるようになりました．本研究では，組合せ剛性理論を用いた剛性判定アルゴリズムを用いて，NMR
-							によって生成されたモデルを検証システムの開発を行っています．
-						</p>
-						<hr />
-					</div>
-				</div>
-			</div>
-			<div id="hpb-nav">
-				<h3 class="hpb-c-index">contents</h3>
-				<ul>
-					<li id="nav-toppage"><a href="index.html">トップページ</a></li>
-					<li id="nav-profile"><a href="report.html">研究紹介</a></li>
-					<li id="nav-schedule"><a href="members.html">メンバー</a></li>
-					<li id="nav-reoprt"><a href="links.html">リンク</a></li>
-				</ul>
-			</div>
-		</div>
-		<div id="hpb-footer">
-			<div id="hpb-footerMain">
-				<p>
-					copyright&copy;2023&nbsp;Kyutech Algorithms
-					Group&nbsp;all&nbsp;rights&nbsp;reserved.
-				</p>
-			</div>
-		</div>
-	</div>
-	<script type="text/javascript" src="navigation.js">
-		hpb - navigation - js
-	</script>
-</body>
-
+  <body id="hpb-template-09-10-01" class="hpb-layoutset-02 hpb-responsive">
+    <div id="hpb-container">
+      <div id="hpb-header">
+        <div id="hpb-headerMain"></div>
+        <div id="hpb-headerLogo">
+          <img src="logo.png" alt="Logo" /><a href="index.html"
+            >Kyutech Algorithms Group</a
+          >
+        </div>
+      </div>
+      <div id="hpb-inner">
+        <div id="hpb-wrapper">
+          <div id="hpb-title" class="hpb-top-image">
+            <h2>
+              <span class="ja">
+                <div class="fuchidori">研究紹介 (斎藤研究室)</div> </span
+              ><span class="en"></span>
+            </h2>
+          </div>
+          <div id="hpb-main">
+            <div id="report">
+              <h3>研究内容</h3>
+              <p>
+                本研究室では主に以下の３つの課題に注目し，研究を進めています．
+              </p>
+              <ol>
+                <li>省領域アルゴリズムの研究</li>
+                <li>列挙アルゴリズムの研究</li>
+                <li>実問題に対する計算複雑性やシステム開発</li>
+              </ol>
+              <p>
+                これらの研究を通じて，アルゴリズムの開発やその解析技術を学ぶだけでなく，どのように実問題を離散的な構造への定式化していくのか，またどのようにアルゴリズムを実装するのか，といった方法についても学んでいきます．
+              </p>
+              <h3>省領域アルゴリズムの研究</h3>
+              <p>
+                近年のデータの巨大化により，効率的にビッグデータを処理するアルゴリズムが求められています．しかし，ビッグデータはそのデータの巨大さゆえ，データのすべてを一度にメモリに載せることはできません．これまでのアルゴリズム理論において，多項式時間・多項式領域のアルゴリズムが効率的であるとされてきましたが，それらのアルゴリズムはビッグデータの前では実行することができません．そこで，入力のデータサイズよりも計算領域が小さい省領域アルゴリズムが求められています．
+              </p>
+              <p>
+                本テーマでは省領域計算モデル上で動作する効率的な省領域アルゴリズムを開発し，そのアルゴリズムに対する理論的な解析を与えています．また，それらのアルゴリズムを実装し，ビッグデータに対してアルゴリズムが耐性を持つかを検証を行います．
+              </p>
+              <!-- 画像を入れる -->
+              <h3>列挙アルゴリズムの研究</h3>
+              <p>
+                列挙問題とは，入力データの中からある特徴をオブジェクトをすべて抽出する問題です．例えば，クリーク列挙であれば，グラフからクリークをすべて抽出する問題で，ネットワーク中からコミュニティをすべて発見する，という問題を意味します．こうした列挙アルゴリズムを適用することで，データから偏りのなくある特徴を満たすデータを抽出できたり，データ全体の傾向や特徴を求めることができます．列挙アルゴリズムにおける手法として，逆探索法やZDDと呼ばれるデータ構造を用いた手法が知られています．特に，データ構造
+                ZDD
+                は列挙自体を効率的に行えるというだけでなく，列挙されたオブジェクトから最適なものを抽出したり，ランダム生成を行うことができるなど，近年，非常に注目を集めています．
+              </p>
+              <p>
+                本研究では，これらの手法を用いた効率的な列挙アルゴリズムの開発するとともに，列挙アルゴリズムを実装し，アルゴリズムの効率性を実験的に評価します．
+              </p>
+              <!-- <p><a href="復元する">いくつかのグラフクラスに対する列挙結果をこちらから見ることができます．</a></p> -->
+              <!-- 画像を入れる -->
+              <h3>実問題に対するアルゴリズムと計算複雑性</h3>
+              <h4>組合せゲーム・パズルに関する研究</h4>
+              <p>
+                本研究では，組合せ的なゲームやパズルに対する計算複雑性を証明したり，パズルを解く高速なアルゴリズムの開発を行っています．また，列挙アルゴリズムの研究で得られた手法を応用し，パズルの解の列挙や例題生成アルゴリズムを行い，パズル作成システムの開発を目指しています．
+              </p>
+              <p>&nbsp;</p>
+              <!-- 画像を入れる -->
+              <!-- <div align="right">（スリザーリンクはニコリの登録商標です）</div> -->
+              <h4>たんぱく質の機能解明に関する研究</h4>
+              <p>
+                たんぱく質の立体構造は X線結晶解析や NMR
+                によって実験的に得られます．しかし，NMR
+                から得られる立体構造は現時点ではあまり信頼されておらず，実際の応用ではあまり使われていません．一方で，近年，組合せ剛性理論を用いたアルゴリズムにより，立体構造の剛性を組合せ的に判定することができるようになりました．本研究では，組合せ剛性理論を用いた剛性判定アルゴリズムを用いて，NMR
+                によって生成されたモデルを検証システムの開発を行っています．
+              </p>
+              <hr />
+            </div>
+          </div>
+        </div>
+        <div id="hpb-nav">
+          <h3 class="hpb-c-index">contents</h3>
+          <ul>
+            <li id="nav-toppage"><a href="index.html">トップページ</a></li>
+            <li id="nav-profile"><a href="report.html">研究紹介</a></li>
+            <li id="nav-schedule"><a href="members.html">メンバー</a></li>
+            <li id="nav-reoprt"><a href="links.html">リンク</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="hpb-footer">
+        <div id="hpb-footerMain">
+          <p>
+            copyright&copy;2023&nbsp;Kyutech Algorithms
+            Group&nbsp;all&nbsp;rights&nbsp;reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="navigation.js">
+      hpb - navigation - js
+    </script>
+  </body>
 </html>
